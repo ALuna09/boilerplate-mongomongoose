@@ -3,6 +3,8 @@ let mongoose = require("mongoose");
 
 let Person;
 
+console.log('Poop');
+
 mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
 
 const createAndSavePerson = (done) => {
